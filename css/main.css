@@ -5,12 +5,26 @@
   display: inline-block;
 }
  
+
+.zoom2 {
+
+  transition: transform .3s;
+  width: 150px;
+  display: inline-block;
+}
+ 
 .zoom:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
+} 
+
+.zoom2:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
- 
+
 .zoom img {
     width: 100%;
 }
