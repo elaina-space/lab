@@ -1,7 +1,7 @@
 .zoom {
 
   transition: transform .3s;
-  width: 350px;
+  width: 250px;
   display: inline-block;
 }
  
