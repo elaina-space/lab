@@ -492,6 +492,13 @@ hr.line {
   width: 8%;
 }
 
+.fixed2 {
+  position: fixed;
+  top: 60%;
+  left: 0%;
+  width: 20%;
+}
+
 #invite {
   background: #f2f2f2;
 }
