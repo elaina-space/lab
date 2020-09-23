@@ -1,3 +1,10 @@
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
 .zoom {
 
   transition: transform .3s;
@@ -487,9 +494,9 @@ hr.line {
 
 .fixed {
   position: fixed;
-  top: 67%;
-  left: 88%;
-  width: 8%;
+  top: 65%;
+  left: 83%;
+  width: 15%;
 }
 
 .fixed2 {
@@ -701,8 +708,8 @@ footer {
 .fixed {
   position: fixed;
   top: 72%;
-  left: 75%;
-  width: 20%;
+  left: 65%;
+  width: 30%;
 }
 
 .btn-lg {
@@ -745,3 +752,4 @@ footer {
   }
   
 }
+
