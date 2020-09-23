@@ -487,9 +487,9 @@ hr.line {
 
 .fixed {
   position: fixed;
-  top: 65%;
-  left: 80%;
-  width: 20%;
+  top: 67%;
+  left: 88%;
+  width: 8%;
 }
 
 #invite {
@@ -693,9 +693,9 @@ footer {
 
 .fixed {
   position: fixed;
-  top: 75%;
-  left: 70%;
-  width: 30%;
+  top: 72%;
+  left: 75%;
+  width: 20%;
 }
 
 .btn-lg {
@@ -738,4 +738,3 @@ footer {
   }
   
 }
-
