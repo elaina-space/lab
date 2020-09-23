@@ -88,6 +88,13 @@ h4 {
   font-weight: 500;
 }
 
+h5 {
+  font-size: 17px;
+  line-height: 20px;
+  color: #929496;
+  font-weight: 500;
+}
+
 /*------------------Utilities---------------------*/
 a {
   color: inherit;
@@ -413,6 +420,11 @@ header {
 	padding: 80px 0px;
 }
 
+.pad-sm2 {
+  padding: 80px 0px;
+  background-color: #d9d9d9;
+}
+
 .pad-xs {
 	padding: 30px 0px;
 }
@@ -473,6 +485,12 @@ hr.line {
     max-width: 440px;
 }
 
+.fixed {
+  position: fixed;
+  top: 65%;
+  left: 80%;
+  width: 20%;
+}
 
 #invite {
   background: #f2f2f2;
@@ -673,6 +691,13 @@ footer {
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 
+.fixed {
+  position: fixed;
+  top: 75%;
+  left: 70%;
+  width: 30%;
+}
+
 .btn-lg {
   font-size: 12.5px;
   line-height: 1.33;
@@ -694,7 +719,6 @@ footer {
   }
 
 }
-
 
 /* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) { 
