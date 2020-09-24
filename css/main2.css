@@ -55,7 +55,7 @@
 
 #counter1 { font-family: 'Product Sans'; font-size: 100pt; color:#63c9e8;}
 
-h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
+h1, h2, h3, h4, h5, h6, h7, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
   font-family: 'NanumSquare'; font-weight: bold;
 }
 
@@ -101,6 +101,7 @@ p {
   font-weight: 500;
 }
 
+
 h4 {
   font-size: 17px;
   line-height: 30px;
@@ -122,6 +123,7 @@ h6 {
   color: #ffffff;
   font-weight: 700;
 }
+
 
 /*------------------Utilities---------------------*/
 a {
@@ -308,7 +310,7 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: #faa1b3;
+    background: #00a1e9;
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
@@ -339,7 +341,7 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #faa1b3;
+    border-color: #00a1e9;
     
 }
 
@@ -357,7 +359,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/headerbg.jpg) no-repeat center center;
+  background: url(../img/headerbg2.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -490,8 +492,8 @@ hr.line {
 }
 
 .pink {
-	border-color: #faa1b3;
-	color: #faa1b3
+	border-color: #00a1e9;
+	color: #00a1e9;
 }
 
 .yellow {
@@ -571,7 +573,7 @@ footer {
 /*---------------Pricing Tables-------------------*/
 
 #pricing {
-  background: #faa1b3;
+  background: #00a1e9;
 }
 
 .pricing-container {
