@@ -527,7 +527,7 @@ hr.line {
   width: 20%;
 }*/
 
-#invite {
+#lowheader {
   background: #f2f2f2;
 }
 
@@ -568,18 +568,18 @@ footer {
 
 
 
-/*---------------Pricing Tables-------------------*/
+/*---------------배경-------------------*/
 
-#pricing {
+#pinkback {
   background: #faa1b3;
 }
 
-.pricing-container {
+.pinkback-container {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.pricing-table {
+.pinkback-table {
   background: transparent;
   margin-bottom: 50px;
   margin-top: 0px;
@@ -588,7 +588,7 @@ footer {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-.pricing-table.active {
+.pinkback-table.active {
   box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
   position: absolute;
   margin: auto;
@@ -597,7 +597,7 @@ footer {
   border-top-right-radius: 10px;
 }
 
-.pricing-table:hover {
+.pinkback-table:hover {
   margin-top: -10px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -605,7 +605,7 @@ footer {
   transition: all 0.25s ease-in-out;
 }
 
-.pricing-table li {
+.pinkback-table li {
   padding-left: 20px;
   padding-right: 20px;
 }
