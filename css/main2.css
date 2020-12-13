@@ -8,7 +8,7 @@
 .zoom {
 
   transition: transform .3s;
-  width: 350px;
+  width: 400px;
   display: inline-block;
 }
 
@@ -55,7 +55,7 @@
 
 #counter1 { font-family: 'Product Sans'; font-size: 100pt; color:#63c9e8;}
 
-h1, h2, h3, h4, h5, h6, h7, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
+h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
   font-family: 'NanumSquare'; font-weight: bold;
 }
 
@@ -101,7 +101,6 @@ p {
   font-weight: 500;
 }
 
-
 h4 {
   font-size: 17px;
   line-height: 30px;
@@ -123,7 +122,6 @@ h6 {
   color: #ffffff;
   font-weight: 700;
 }
-
 
 /*------------------Utilities---------------------*/
 a {
@@ -310,7 +308,7 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: #00a1e9;
+    background: #faa1b3;
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
@@ -341,7 +339,7 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #00a1e9;
+    border-color: #faa1b3;
     
 }
 
@@ -492,8 +490,8 @@ hr.line {
 }
 
 .pink {
-	border-color: #00a1e9;
-	color: #00a1e9;
+	border-color: #212557;
+	color: #212557
 }
 
 .yellow {
@@ -529,7 +527,7 @@ hr.line {
   width: 20%;
 }*/
 
-#invite {
+#lowheader {
   background: #f2f2f2;
 }
 
@@ -570,18 +568,18 @@ footer {
 
 
 
-/*---------------Pricing Tables-------------------*/
+/*---------------배경-------------------*/
 
-#pricing {
-  background: #00a1e9;
+#pinkback {
+  background: #212557;
 }
 
-.pricing-container {
+.pinkback-container {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.pricing-table {
+.pinkback-table {
   background: transparent;
   margin-bottom: 50px;
   margin-top: 0px;
@@ -590,7 +588,7 @@ footer {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-.pricing-table.active {
+.pinkback-table.active {
   box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
   position: absolute;
   margin: auto;
@@ -599,7 +597,7 @@ footer {
   border-top-right-radius: 10px;
 }
 
-.pricing-table:hover {
+.pinkback-table:hover {
   margin-top: -10px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -607,7 +605,7 @@ footer {
   transition: all 0.25s ease-in-out;
 }
 
-.pricing-table li {
+.pinkback-table li {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -728,7 +726,7 @@ footer {
 
 .fixed {
   position: fixed;
-  top: 72%;
+  top: 78%;
   left: 65%;
   width: 30%;
 }
