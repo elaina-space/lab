@@ -479,15 +479,9 @@ header {
   }
   
 
-hr{
+hr.line{
 	width: 100%;
   border: 2px solid;
-  border-color: #faa1b3;
-}
-
-hr.2{
-	width: 20%;
-  border: 1px solid;
   border-color: #faa1b3;
 }
 
