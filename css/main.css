@@ -479,9 +479,10 @@ header {
   }
   
 
-hr.line {
-	width: 100%;
-	border: 2px solid;
+hr{
+	width: 20%;
+  border: 1px solid;
+  border-color: #faa1b3;
 }
 
 .purple {
