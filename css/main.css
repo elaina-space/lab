@@ -123,7 +123,6 @@ h6 {
   font-weight: 700;
 }
 
-/*------------------Utilities---------------------*/
 a {
   color: inherit;
   font-weight: inherit;
@@ -156,82 +155,6 @@ a:hover, a:focus {
 }
 
 
-/*------------------Buttons---------------------*/
-.btn:focus {
-  outline: 0px auto -webkit-focus-ring-color;
-  outline: none;
-}
-
-.btn {
-  text-transform: uppercase;
-  border-radius: 4px;
-  border: none;
-}
-
-.btn-lg {
-  font-size: 13px;
-  line-height: 1.33;
-  padding: 22px 30px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-.btn-sm {
-  font-size: 11px;
-  line-height: 1.33;
-  padding: 10px 18px;
-  font-weight: 400;
-}
-
-.btn-wide {
-  width: 100%;
-  font-size: 13px;
-  line-height: 1.33;
-  padding: 18px 28px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-.btn-primary {
-  font-family:Product Sans;
-  font-weight:bold;
-  background-color:#63c9e8;
-  color: #ffffff;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  font-family:Product Sans;
-  font-weight:bold;
-  background-color: #a8ebff;
-  color: #ffffff;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-}
-
-.btn-secondary {
-  font-family:Product Sans;
-  font-weight:bold;
-  background-color: #ffffff;
-  color: #ffffff;
-}
-
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
-  font-family:Product Sans;
-  font-weight:bold;
-  background-color: #ededed;
-  color: #ffffff;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-}
-
-
-
-
-/*-----------------Margins------------------*/
 .margin-0 {
     margin-bottom: 0 !important;
 }
@@ -270,8 +193,6 @@ a:hover, a:focus {
 }
 
 
-/*-----------------Colors------------------*/
-
 .black {
   color: #231f20;
 }
@@ -300,62 +221,6 @@ a:hover, a:focus {
 	background: #6d3f96;
 }
 
-
-
-/* ==========================================================================
-   Nav Styles
-   ========================================================================== */
-
-.navbar {
-    border: 0px solid rgba(0, 0, 0, 0);
-    background: #faa1b3;
-    margin: auto;
-    min-height: 60px;
-    padding-top: 8px;
-    position: fixed;
-    top: -60px;
-    transition: top 0.4s ease 0s;
-}
-
-.navbar.open {
-    top: 0;
-}
-
-.navbar-inverse .navbar-nav > li > a, .navbar-nav a {
-    color: #ffffff;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #ffffff;
-    opacity: 0.6;
-}
-
-.nav > li > a {
-    position: relative;
-    display: block;
-    padding: 10px 10px;
-}
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #faa1b3;
-    
-}
-
-.navbar-inverse .navbar-toggle {
-    border-color: transparent;
-}
-
-.logo img {
-	margin-top: 6px;
-}
-
-
-
-/* ==========================================================================
-   Main styles
-   ========================================================================== */
 header {
   background: url(../img/headerbg.jpg) no-repeat center center;
   width: 100%;
@@ -458,27 +323,6 @@ header {
 }
 
 
-
-#be-the-first {
-  background: url(../img/bethe1stbg.png) #002834 no-repeat center center fixed;
-  min-height: 300px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.circle{
-  width:340px;
-  height:340px;
-  border-radius:170px;
-  background:#63c9e8;
-  border: 8pt solid #FFFFFF;
-  text-align:center;  /*가로정렬*/
-  line-height:340px;  /*세로 정렬*/ 
-  }
-  
-
 hr.line{
 	width: 100%;
   border: 2px solid;
@@ -521,13 +365,6 @@ hr.line{
   width: 15%;
 }
 
-/*.fixed2 {
-  position: fixed;
-  top: 60%;
-  left: 0%;
-  width: 20%;
-}*/
-
 #lowheader {
   background: #f2f2f2;
 }
@@ -547,29 +384,6 @@ hr.line{
   margin: auto;
 }
 
-
-
-.news-container {
-  padding: 10px 0px 20px;
-  border-bottom: 1px dotted #d9d9d9;
-}
-
-.news-img {
-  padding-right: 20px;
-}
-
-footer {
-  background: #ffffff;
-  padding: 40px 0px;
-}
-
-.social li a:hover {
-  opacity: 0.5;
-}
-
-
-
-/*---------------배경-------------------*/
 
 #pinkback {
   background: #faa1b3;
@@ -675,54 +489,6 @@ footer {
 	letter-spacing: 1px;
 }
 
-.pricing-container .btn {
-    border-radius: 0;
-}
-
-
-
-
-/* ==========================================================================
-   Form styles
-   ========================================================================== */
-.form-control {
-    background-color: #FFFFFF;
-    background-image: none;
-    border: 0px solid transparent;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    color: #929496;
-    display: block;
-    font-size: 15px;
-    height: 60px;
-    line-height: 1.42857;
-    padding: 6px 12px;
-    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-}
-
-.form-control::-moz-placeholder {
-    color: #d9d9d9;
-    font-size: 15px;
-    opacity: 1;
-}
-
-.form-control::-webkit-placeholder, .form-control::-o-placeholder {
-    color: #d9d9d9;
-    font-size: 15px;
-    opacity: 1;
-}
-
-.form-control::-o-placeholder {
-    color: #d9d9d9;
-    font-size: 15px;
-    opacity: 1;
-}
-
-
-/* ==========================================================================
-   Mobile styles
-   ========================================================================== */
-/* Landscape phones and down */
 @media (max-width: 480px) { 
 
 .fixed {
@@ -754,7 +520,6 @@ footer {
 
 }
 
-/* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) { 
 
 #be-the-first { 
@@ -764,7 +529,6 @@ footer {
 }
 
 
-/* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
 #be-the-first { 
